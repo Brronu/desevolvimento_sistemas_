@@ -1,0 +1,22 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(160, 96, 219);
+}
+h1{text-align: center;}
+
+section{width: 400px;}
+
+
+/*FORMATANDO BLOCO 1*/
+.bloco1 p{color: rgb(4, 0, 238); /*Formatando todas as tags P dentro da classe 'bloco1'*/
+}
+
+.bloco1 > p{text-decoration:line-through; text-align: end;}/*esse seletor > isa selecionar todas as finhas direta da tag mãe*/
+
+.bloco1{
+    border: 2px red solid;
+}
+
+.bloco2{
+    border: 2px solid green;
+}
