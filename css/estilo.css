@@ -8,15 +8,20 @@ section{width: 400px;}
 
 
 /*FORMATANDO BLOCO 1*/
-.bloco1 p{color: rgb(4, 0, 238); /*Formatando todas as tags P dentro da classe 'bloco1'*/
+.bloco1 p{color: rgb(4, 0, 238); 
+    padding-top: 10px;
+    padding-bottom: 50px;/*Formatando todas as tags P dentro da classe 'bloco1'*/
 }
 
-.bloco1 > p{text-decoration:line-through; text-align: end;}/*esse seletor > isa selecionar todas as finhas direta da tag mãe*/
+.bloco1 > p{text-decoration:line-through; text-align: end;
+}/*esse seletor > isa selecionar todas as finhas direta da tag mãe*/
 
 .bloco1{
-    border: 2px red solid;
+    border: 3px red solid;
+    box-sizing: border-box;
 }
 
 .bloco2{
-    border: 2px solid green;
-}
+    border: 2px solid green; 
+    padding: 40px;box-sizing: border-box;/*Box-sizzing: border-box ira alterar o comportamento padrão do dimensionamento do elemento HTML. De forma que quando aplicado border e padding, a estrutura não ira expandir, mas ficará com mesmo tamanho, so que recalculado*/
+}   
