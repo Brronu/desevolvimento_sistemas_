@@ -1,6 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(160, 96, 219);
+    background-color: rgb(66, 65, 68);
 }
 h1{text-align: center;}
 
@@ -25,3 +25,15 @@ section{width: 400px;}
     border: 2px solid green; 
     padding: 40px;box-sizing: border-box;/*Box-sizzing: border-box ira alterar o comportamento padrão do dimensionamento do elemento HTML. De forma que quando aplicado border e padding, a estrutura não ira expandir, mas ficará com mesmo tamanho, so que recalculado*/
 }   
+
+.bloco2 + p{ 
+    text-transform: uppercase; color:olive
+} /*o seletor "+" eo adjacente, que ira formata o elemento exatamente apos o seletor que usamos como referencia, nesse caso, e o bloco2 */
+
+
+.meu-botao {background-color: #4CAF50; /* cor de fundo */
+color: white; /* cor do texto */
+padding: 10px 20px; /* espaçamento interno (topo/baixo, esquerda/direita) */
+border: none; /* remova a borda padrão */
+border-radius: 4px; /* borda arredondada */
+cursor: pointer; /* cursor ao passar por cima */}

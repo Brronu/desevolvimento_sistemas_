@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando seletor adjacente</title>
+    <style>
+        body{background-color: rgb(226, 62, 62);}
+        .lista{width:200px; border:2px solid black; background-color: olive; padding: 10px; display:none;}
+        a:hover+ .lista{display:block;}
+
+        .meu-botao {
+  background-color: #4CAF50; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 10px 20px; /* espaçamento interno (topo/baixo, esquerda/direita) */
+  border: none; /* remova a borda padrão */
+  border-radius: 4px; /* borda arredondada */
+  cursor: pointer; /* cursor ao passar por cima */}
+    </style>
+</head>
+<body>
+    <a href="">Menu de compras</a>
+    <section class="lista">
+        <p>Frutas</p>
+        <p>Verduras</p>
+        <p>Açougue</p>
+    </section>
+    <button class="meu-botao">Clique Aqui</button>
+
+</body>
+</html>
