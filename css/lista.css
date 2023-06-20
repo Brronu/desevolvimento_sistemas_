@@ -1,0 +1,25 @@
+body{background-color: rgb(223, 222, 142); font-family:Verdana, Geneva, Tahoma, sans-serif}
+
+h1{text-align: center; color: darkgreen;}
+
+.ingredientes, .preparo{background-color: lightcyan; height: 400px;
+}
+
+.ingredientes>h2, .preparo>h2{
+background-color: rgb(217, 255, 0);
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 10px;
+}
+
+.ingredientes ul li, .preparo ol li{
+    font-size: 18px;
+    line-height: 1cm;
+}
+
+::selection{background-color: rgb(255, 0, 0);}
+
+
+
+
+
