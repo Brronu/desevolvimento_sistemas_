@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(214, 228, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{ color: white;
+    text-align: center;
+    background-color: rgb(121, 134, 0);
+    padding: 10px;
+}   
+
+.cidades, .Paises, .MaisPaises, .MaisCidades{ 
+    line-height: 0.6cm;
+
+
+}
