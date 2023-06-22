@@ -10,6 +10,7 @@ background-color: rgb(217, 255, 0);
 color: rgb(0, 0, 0);
 text-align: center;
 padding: 10px;
+border-radius: 10px;
 }
 
 .ingredientes ul li, .preparo ol li{
@@ -19,7 +20,9 @@ padding: 10px;
 
 ::selection{background-color: rgb(255, 0, 0);}
 
-
+.ingredientes{
+    border-radius: 10px;
+}
 
 
 

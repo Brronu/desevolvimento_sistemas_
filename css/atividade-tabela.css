@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    border: 2px solid rgb(10, 96, 153);
+}
+
+ table, tr, th,td{
+    border: 1px solid rgb(0, 0, 0);
+    
+    border-collapse: collapse;
+    padding: 10px;}
+
+
+thead{
+    background-color: darkgreen;
+}
+
+.cor{
+    background-color:olive;
+}
+.vd{background-color:chartreuse;}
+

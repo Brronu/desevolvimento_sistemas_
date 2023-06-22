@@ -10,16 +10,45 @@ h1{
 hr{
     border: 2px solid rgb(10, 96, 153);
 }
-
-table, tr, th,td{
+/* FROMATAÇÃO  1 */
+/* table, tr, th,td{
     border: 1px solid black;
     background-color: rgb(30, 194, 235);
     border-collapse: collapse;
     padding: 10px;
  
-}
+} */
  
-th{background-color: rgb(0, 153, 153);}
+/* th{background-color: rgb(0, 153, 153);} */
 
-table{margin:10px auto ;} /*estamos centralizando a tabelo utilizado margin auto as laterais*/
+table{margin:10px auto ;
+    width: 50px;
+    border-collapse: collapse;
+} /*estamos centralizando a tabelo utilizado margin auto as laterais*/
 
+/*  FORMATAÇÃO 2 */
+
+/* th,td{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+} */
+
+/* FORMATAÇÃO 3 */
+th{
+    background-color: darkred;
+    color: white;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+tbody> tr:nth-child(even){
+    background-color: aqua;
+}
+/* ntn-child() ira formatar um filho especifico que sera informado nos, por exemplo, se quisermos formatar a 2º filho, colocamo ntn-child(2) e assim por diante. Even e um paramentro quando queremos aplicar formatação em todos os filhos que são pares, ja o "odd" e quando queremos fromatar valores impares */
+
+tbody > tr:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
