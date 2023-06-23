@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline:none;
+    border-radius: 1px solid gray;
+}
+
+input:focus{box-shadow: 0 0 10px rgb(0, 0, 0);}
+legend{text-align: center;}
