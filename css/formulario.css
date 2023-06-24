@@ -8,20 +8,27 @@ h1{
 
 form{
     width: 80%;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     margin: 0 auto;
     border-radius: 20px;
 }
 
-input{
+input, select, textarea{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     box-sizing: border-box;
     outline:none;
-    border-radius: 1px solid gray;
+    border-radius: 1px solid rgb(46, 46, 46);
 }
+input[type=checkbox], input[type=radio] {width: 5%;}
 
-input:focus{box-shadow: 0 0 10px rgb(0, 0, 0);}
+/* label{border: 1px solid red} */
+
+input[type=text]:focus, input[type=password]:focus{box-shadow: 0 0 10px rgb(0, 0, 0);}
+
 legend{text-align: center;}
+
+textarea{height:150px; resize: none;}
+
