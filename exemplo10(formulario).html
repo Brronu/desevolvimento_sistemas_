@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/desevolvimento_sistemas_/css/formulario.css">
     <title>Trabalhando com Formulario</title>
 </head>
 <body>
     <h1>Formulário com HTML e CSS</h1>
 
-    <form action="#" method="get">
-        <fieldset>
+    <form action="#" method="get" enctype="multipart/form-data">
+    <fieldset>
             <legend>Cadastro</legend>
             <label for="">Seu nome</label>
-            <input type="text" name="nome" id="" placeholder="Insira seu nome completo" maxlength="10">
+            <input type="text" name="nome" id="" placeholder="Insira seu nome completo" minlength="5"
+            maxlength="10" required>
         
 
         <for="senha"> sua senha
-        <input type="password" nome="senha" id="senha" disabled>
+        <input type="password" nome="senha" id="senha">
 
    
         
@@ -78,6 +79,21 @@
         </section>
         
     </fieldset> 
+
+    <fieldset>
+        <legende>Outros campos de formulario</legende>
+        <input type="number" name="idade" id="idade"
+        placeholder="Digite sua idade em anos">
+        
+        <input type="date" name="nascimento" id="nascimento">
+
+        <input type="range" name="volume" id="volume" min="1" max="10"> 
+
+        <input type="time" name="hora" id="hora">
+
+        <input type="color" name="cor" id="cor">
+
+        
     </form>
 
     
