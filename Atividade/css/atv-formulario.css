@@ -11,8 +11,9 @@ fieldset{
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
-    margin: 0 auto;
+    margin:0 auto;
     border-radius: 20px;
+    
 }
 
 input{
@@ -28,7 +29,27 @@ input{
 }
 
 
+input[type=checkbox]{outline:none; 
+    width: 5%;
+    display:inline-block;
+}
 
-input[type=checkbox]{ background-color: 1px solid red; outline: none;display: inline-block;}
+.cor2{
+    background-color: aquamarine;
+}
 
- 
+.cor3{
+    background-color: coral;
+}
+
+/* .cor4{
+    background-color: #4caf50} */
+
+.cor4{
+    background-color: violet;
+}
+
+input[type=text], input[type=number], input[type=email],input[type=date]{
+    border-radius: 10px;
+    
+}
